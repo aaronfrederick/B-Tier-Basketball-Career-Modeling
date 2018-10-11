@@ -1,6 +1,11 @@
-## ProjectLuther
-Web scraping and linear regression project (METIS)
+## Career Modeling of a B-Tier NBA Player
+### aka ProjectLuther
+METIS Web scraping and linear regression project
 
-Data set samples box scores data from basketball-reference.com and salary data curated by data.world users origionally from basketball-reference.com.
+The purpose of this analysis is to find which aspects of the game lead to most playing time and salary in professsional basketball players. The findings are that increasing shooting percentage across foul shots, 3-pointers, and 2-point shots yields the greatest return in playing time. Once playing time is increased, there is potential for more salary, but it is not guaranteed.  Therefore, a transfer is recommended to a team with higher median salary- 10 are listed.
 
-The purpose of this analysis is to find which aspects of the game lead to most playing time and salary in professsional basketball players
+The data set used samples box score data from basketball-reference.com. It was scraped using code in bball_scrape.py then stored in a pickled pandas dataframe as master_df.pkl. Salary data curated by data.world users was origionally from basketball-reference.com, stored as nba_salaries_1990_to_2018.csv. These dataframes were combined and stored as another pickled pandas dataframe, merged_df.pkl. The code used to curate these dataframes can be found in the Jupyter Notebook Project Luther Dataframe Management.ipynb.
+
+Once the data was scraped and processed, the bulk of the modeling and visualization was done in the notebook Project Luther Visualization and Modeling.ipynb. The notebook contains the data manipulation and graphing tools used to optimize the linear model and experiment with some basic neural network models.
+
+
