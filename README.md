@@ -7,5 +7,6 @@ The purpose of this analysis is to find which aspects of the game lead to most p
 The data set used samples box score data from basketball-reference.com. It was scraped using code in bball_scrape.py then stored in a pickled pandas dataframe as master_df.pkl. Salary data curated by data.world users was origionally from basketball-reference.com, stored as nba_salaries_1990_to_2018.csv. These dataframes were combined and stored as another pickled pandas dataframe, merged_df.pkl. The code used to curate these dataframes can be found in the Jupyter Notebook Project Luther Dataframe Management.ipynb.
 
 Once the data was scraped and processed, the bulk of the modeling and visualization was done in the notebook Project Luther Visualization and Modeling.ipynb. The notebook contains the data manipulation and graphing tools used to optimize the linear model and experiment with some basic neural network models.
+### NOTE: The bottom of the visualization notebook has printed values used to track progress of neural network training. Removing said values would involve training thousands of NN's again - sorry.
 
 
